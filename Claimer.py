@@ -78,11 +78,7 @@ def apply():
         }
         file.write(json.dumps(jsonbuild))
 
-    with open('Agents [X].cords', 'a+') as file:
-        exec(file.read())
-    with open('Agents [Y].cords', 'a+') as file:
-        exec(file.read())
-        
+
 
 
 
