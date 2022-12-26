@@ -1,8 +1,7 @@
 # ValorantAgentClaimer
 Claim your favorite agents within miliseconds! \
-ValorantAgentClaimer is based on python lib called tkinkter which shows you this gui\
-**app currently only supports 1920x1080** but if you have a bit of experience it wont be problem to change it to custom res\
-
+ValorantAgentClaimer is based on python lib called tkinkter which shows you this gui also gui uses theme called [Azure](https://github.com/rdbende/Azure-ttk-theme/blob/main/azure.tcl)\
+**app currently only supports 1920x1080** but if you have a bit of experience it wont be problem to change it to custom res
 ## Showcase
 ![](https://cdn.upload.systems/uploads/E0vk1z1l.png)
 ### How to run exe
