@@ -3,9 +3,10 @@ from tkinter import ttk
 import os, json, threading
 from pynput import keyboard
 import pyautogui as pyg
-import time
+import time, sys
 
 root = tk.Tk()
+root.iconbitmap('theme/purpeblue.ico')
 root.resizable(False, False)
 x_to_clikc = None
 y_to_click = None
@@ -20,7 +21,9 @@ def_button = 'x'
 toggle = False
 
 def t1():
-    keyboard.Listener(on_press=on_press).start()
+    t = keyboard.Listener(on_press=on_press)
+    t.daemon =True
+    t.start()
     global toggle, x_to_clikc, y_to_click, delay
     while True:
         if toggle:
@@ -152,8 +155,9 @@ root.tk.call("source", "azure.tcl")
 
 root.tk.call("set_theme", "dark")
 
-threading.Thread(target=t1).start()
+threading.Thread(target=t1, daemon=True).start()
 
 root.mainloop()
 
 
+sys.exit()
