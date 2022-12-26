@@ -2,7 +2,8 @@ import tkinter as tk
 from tkinter import ttk 
 import os, json, threading
 from pynput import keyboard
-import pyautogui as pyg
+from pynput.mouse import Button, Controller
+
 import time, sys
 
 root = tk.Tk()
@@ -21,16 +22,19 @@ def_button = 'x'
 toggle = False
 
 def t1():
+    mouse = Controller()
     t = keyboard.Listener(on_press=on_press)
     t.daemon =True
     t.start()
     global toggle, x_to_clikc, y_to_click, delay
     while True:
         if toggle:
-
-            pyg.click(x=int(x_to_clikc),y=int(y_to_click))
-            time.sleep(0.005)
-            pyg.click(x=974,y=818)
+            mouse.position = (x_to_clikc, y_to_click)
+            mouse.click(Button.left, 2)
+            # time.sleep(0.01)
+            time.sleep(float(delay))
+            mouse.position = (974, 818)
+            mouse.click(Button.left, 2)
             time.sleep(float(delay))
 
 
