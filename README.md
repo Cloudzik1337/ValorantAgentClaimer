@@ -1,10 +1,24 @@
 # ValorantAgentClaimer
-I was tired using cmd based picker so i decided to make my own one\
+I was tired using cmd based picker so i decided to make my own one with pleasent gui\
 Claim your favorite agents within miliseconds! \
 ValorantAgentClaimer is based on python lib called tkinkter which shows you this gui also gui uses theme called [Azure](https://github.com/rdbende/Azure-ttk-theme/)\
-**app currently only supports 1920x1080** but if you have a bit of experience it wont be problem to change it to custom res
+
 ## Showcase
 ![](https://cdn.upload.systems/uploads/BHH6TOdO.png)
+### Custom Resolution
+1. Join Into Game ex. Replication
+2. Take screenshot of agent choosing menu (WHOLE SCREEN)
+3. Save for example as agentsmenu.png
+4. Open In Fullscreen
+5. Run Cordsmaker.py/exe
+6. Start clicking on each agent from left to right finishing by Lock button
+	  ----	     <- Last Button
+---------------------  <- First Row From Left To right
+---------------------  <- Second Row From Left To right
+7. After you clicked everything click anywhere 1 time
+8. Custom Cords will save to theme/cords.txt
+9. You can run Claimer.py/exe and it will use these fresh cords
+
 ### How to run exe
 1. Download [ZipFile](https://github.com/Cloudzik1337/ValorantAgentClaimer/releases/download/1.0.3/Exe.Build.zip)
 2. Unpack but **dont move exe file!**
