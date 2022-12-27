@@ -16,7 +16,7 @@ CustomCords = None
 if not os.path.exists('theme/cords.txt'):
     with open('theme/cords.txt', 'a+') as cords:
         cords.write(
-            "ags = ['Brimstone:653x838', 'Jett:748x845', 'Omen:827x844', 'Phoenix:912x845', 'Raze:1003x843', 'Reyna:1081x847', 'Sage:1178x838', 'Sova:1248x845', 'Astra:643x925', 'Breach:760x924', 'Chamber:826x922', 'Cypher:917x924', 'Fade:998x926', 'Harbor:1086x937', 'KAY/O:1159x936', 'Killjoy:1257x941', 'Neon:649x1023', 'Skye:766x1006', 'Viper:840x1020', 'Yoru:920x1010', 'Lock:926x736']\nCustomCords=None\n#Note Use Custom Cords Generated with Cordsmaker.py")
+            "ags = ['Brimstone:584x928', 'Jett:670x925', 'Omen:750x924', 'Phoenix:827x926', 'Raze:915x936', 'Reyna:1010x935', 'Sage:1100x929', 'Sova:1172x935', 'Astra:1256x924', 'Breach:1332x924', 'Chamber:580x1012', 'Cypher:662x1008', 'Fade:739x1020', 'Harbor:837x1006', 'KAY/O:912x1013', 'Killjoy:1004x1008', 'Neon:1070x1014', 'Skye:1172x1014', 'Viper:1241x1008', 'Yoru:1349x1023', 'Lock:929x813']\nCustomCords=None\n#Note Use Custom Cords Generated with Cordsmaker.py")
 with open('theme/cords.txt', 'r') as cords:
     cords_read = cords.read()
     exec(cords_read)
