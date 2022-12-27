@@ -4,7 +4,8 @@ Claim your favorite agents within miliseconds! \
 ValorantAgentClaimer is based on python lib called tkinkter which shows you this gui also gui uses theme called [Azure](https://github.com/rdbende/Azure-ttk-theme/)
 
 ## Showcase
-![](https://cdn.upload.systems/uploads/BHH6TOdO.png)
+![](https://cdn.upload.systems/uploads/QNwCnEcb.png)
+
 ### Custom Resolution
 1. Join Into Game ex. Replication
 2. Take screenshot of agent choosing menu (WHOLE SCREEN)
@@ -25,7 +26,7 @@ ValorantAgentClaimer is based on python lib called tkinkter which shows you this
 3. Create shortcut to exe and move it to your desktop (Optional)
 4. Run shortcut / directly exe file
 5. You should see this \
-![](https://cdn.upload.systems/uploads/BHH6TOdO.png)
+![](https://cdn.upload.systems/uploads/QNwCnEcb.png)
 6. Keybind is key wich will turn on spamming choosed agent and Lock button
 7. I reccomend to leave delay deafult hovewer delay is time to wait to click next time
 8. After chosing agent press **Save Changes**
