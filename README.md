@@ -1,7 +1,7 @@
 # ValorantAgentClaimer
 I was tired using cmd based picker so i decided to make my own one with pleasent gui\
 Claim your favorite agents within miliseconds! \
-ValorantAgentClaimer is based on python lib called tkinkter which shows you this gui also gui uses theme called [Azure](https://github.com/rdbende/Azure-ttk-theme/)\
+ValorantAgentClaimer is based on python lib called tkinkter which shows you this gui also gui uses theme called [Azure](https://github.com/rdbende/Azure-ttk-theme/)
 
 ## Showcase
 ![](https://cdn.upload.systems/uploads/BHH6TOdO.png)
