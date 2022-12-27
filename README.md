@@ -12,9 +12,9 @@ ValorantAgentClaimer is based on python lib called tkinkter which shows you this
 4. Open In Fullscreen
 5. Run Cordsmaker.py/exe
 6. Start clicking on each agent from left to right finishing by Lock button
-	  ----	     <- Last Button
----------------------  <- First Row From Left To right
----------------------  <- Second Row From Left To right
+	  ----	     <- Last Button\
+---------------------  <- First Row From Left To right\
+---------------------  <- Second Row From Left To right\
 7. After you clicked everything click anywhere 1 time
 8. Custom Cords will save to theme/cords.txt
 9. You can run Claimer.py/exe and it will use these fresh cords
