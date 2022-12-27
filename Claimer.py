@@ -3,7 +3,7 @@ from tkinter import ttk
 import os, json, threading
 from pynput import keyboard
 from pynput.mouse import Button, Controller
-
+from playsound import playsound
 import time, sys
 
 root = tk.Tk()
@@ -56,7 +56,13 @@ def on_press(key):
                 y_to_click = cordy
                 toggle = not toggle
                 break
-
+              
+        if toggle:
+            
+            playsound('theme/enable.wav')
+        else:
+            playsound('theme/disable.wav')
+        
 
 
 
