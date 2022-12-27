@@ -1,3 +1,3 @@
-ags = ['Brimstone:653x838', 'Jett:748x845', 'Omen:827x844', 'Phoenix:912x845', 'Raze:1003x843', 'Reyna:1081x847', 'Sage:1178x838', 'Sova:1248x845', 'Astra:643x925', 'Breach:760x924', 'Chamber:826x922', 'Cypher:917x924', 'Fade:998x926', 'Harbor:1086x937', 'KAY/O:1159x936', 'Killjoy:1257x941', 'Neon:649x1023', 'Skye:766x1006', 'Viper:840x1020', 'Yoru:920x1010', 'Lock:926x736']
+ags = ['Brimstone:575x920', 'Jett:675x928', 'Omen:752x935', 'Phoenix:830x932', 'Raze:928x936', 'Reyna:999x920', 'Sage:1076x928', 'Sova:1164x933', 'Astra:1257x934', 'Breach:1327x925', 'Chamber:580x1012', 'Cypher:660x995', 'Fade:759x1004', 'Harbor:819x1007', 'KAY/O:941x1005', 'Killjoy:993x1007', 'Neon:1073x1012', 'Skye:1154x1008', 'Viper:1259x1017', 'Yoru:1332x1012', 'Lock:975x818']
 CustomCords=None
 #Note Use Custom Cords Generated with Cordsmaker.py
