@@ -6,7 +6,7 @@ ValorantAgentClaimer is based on python lib called tkinkter which shows you this
 ## Showcase
 ![](https://cdn.upload.systems/uploads/MqEhsvXs.png)
 ### How to run exe
-1. Download [ZipFile](https://github.com/Cloudzik1337/ValorantAgentClaimer/releases/download/1.0.2/Exe.Build.zip)
+1. Download [ZipFile](https://github.com/Cloudzik1337/ValorantAgentClaimer/releases/download/1.0.3/Exe.Build.zip)
 2. Unpack but **dont move exe file!**
 3. Create shortcut to exe and move it to your desktop (Optional)
 4. Run shortcut / directly exe file
