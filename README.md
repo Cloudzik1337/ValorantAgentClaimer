@@ -39,7 +39,7 @@ ValorantAgentClaimer is based on python lib called tkinkter which shows you this
 4. If u want to move it simply right click it and create shortcut
 5. Run Claimer.py
 6. You should see this \
-![](https://cdn.upload.systems/uploads/BHH6TOdO.png
+![](https://cdn.upload.systems/uploads/BHH6TOdO.png)
 7. Keybind is key wich will turn on spamming choosed agent and Lock button
 8. I reccomend to leave delay deafult hovewer delay is time to wait to click next time
 9. After chosing agent press **Save Changes**
