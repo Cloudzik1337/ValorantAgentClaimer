@@ -34,7 +34,7 @@ ValorantAgentClaimer is based on python lib called tkinkter which shows you this
 
 ### How to run .py
 1. Download each file
-2. Run `py -m pip install pynput | py -m pip install pyautogui`
+2. Run `py -m pip install pynput | py -m pip install pyautogui | py -m pip install pysound`
 3. Dont move Claimer.py
 4. If u want to move it simply right click it and create shortcut
 5. Run Claimer.py
