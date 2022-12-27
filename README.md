@@ -11,7 +11,7 @@ ValorantAgentClaimer is based on python lib called tkinkter which shows you this
 3. Save for example as agentsmenu.png
 4. Open In Fullscreen
 5. Run Cordsmaker.py/exe
-6. Start clicking on each agent from left to right finishing by Lock button
+6. Start clicking on each agent from left to right finishing by Lock button\
 	  ----	     <- Last Button\
 ---------------------  <- First Row From Left To right\
 ---------------------  <- Second Row From Left To right\
