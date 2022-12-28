@@ -1,4 +1,5 @@
 # ValorantAgentClaimer
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)\
 I was tired using cmd based picker so i decided to make my own one with pleasent gui\
 Claim your favorite agents within miliseconds! \
 ValorantAgentClaimer is based on python lib called tkinkter which shows you this gui also gui uses theme called [Azure](https://github.com/rdbende/Azure-ttk-theme/)
