@@ -49,5 +49,7 @@ ValorantAgentClaimer is based on python lib called tkinkter which shows you this
 ![](https://cdn.upload.systems/uploads/WfGEO37b.png)
 Its detecting as keylogger beacuse on line 54 `t = keyboard.Listener(on_press=on_press)` program runs listener wich listen for keybind its working same way as keyloger so thats why it detects keylogger
 ### TODO
-1. Custom Resolution Support
-2. Clear template files
+1. Custom Resolution Support ✓
+2. image gui ✓
+4. logging debug support ✓
+5. Clear template files X
