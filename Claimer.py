@@ -10,9 +10,22 @@ import time
 import sys
 
 
-
+root = tk.Tk()
+root.iconbitmap('theme/purpeblue.ico')
+root.resizable(False, False)
+x_to_click = None
+y_to_click = None
+agent = None
+kb = None
+toggle = False
+current_path = 'theme/agents/Brimstone.png'
+delay = 0
+root.attributes("-alpha", 0.95)
+root.title('Cloud Valorant Agent Picker ')
+def_button = 'x'
 ags = []
 CustomCords = None
+
 if not os.path.exists('theme/cords.txt'):
     with open('theme/cords.txt', 'a+') as cords:
         cords.write(
@@ -27,25 +40,12 @@ with open('theme/cords.txt', 'r') as cords:
         Lockx, Locky = str(ags[-1]).split(':')[1].split('x')
         ags.remove(ags[-1])
 
-root = tk.Tk()
-root.iconbitmap('theme/purpeblue.ico')
-root.resizable(False, False)
-x_to_click = None
-y_to_click = None
-agent = None
-kb = None
-current_path = 'theme/agents/Brimstone.png'
-delay = 0
-root.attributes("-alpha", 0.95)
-root.title('Cloud Valorant Agent Picker ')
-
-def_button = 'x'
-toggle = False
-
 
 def t1():
+
     mouse = Controller()
     t = keyboard.Listener(on_press=on_press)
+
     t.daemon = True
     t.start()
     global toggle, x_to_click, y_to_click, delay, Lockx, Locky
@@ -85,7 +85,7 @@ def on_press(key):
             toggle_state.configure(text=f"Status:\n{istoggled}", fg='Red')
             playsound('theme/disable.wav')
 
-        # toggle_state = tk.Label(keybind_frame, text = f"\n\nStatus:\n{toggleon}")
+        # toggle_state = tk.Label(keybind_frame, text = f"\n\nStatus:\n{istoggled}")
 
 
 def updateimg(current_path):
@@ -113,10 +113,10 @@ def apply():
     kb = entrykb.get()
     refresh_text(agent, kb, delay)
 
-    with open('config.txt', 'a+') as file:
+    with open('theme/config.txt', 'a+') as file:
         pass
 
-    with open('config.txt', 'w') as file:
+    with open('theme/config.txt', 'w') as file:
         jsonbuild = {
             'agent': agent,
             'delay': delay,
@@ -158,16 +158,16 @@ entrykb = ttk.Entry(keybind_frame)
 entrykb.insert(0, def_button)
 entrykb.pack()
 if toggle:
-    toggleon = 'ON'
+    istoggled = 'ON'
     fg = 'Green'
 else:
-    toggleon = 'OFF'
+    istoggled = 'OFF'
     fg = 'Red'
 
 text = tk.Label(keybind_frame, text=f'Current Agent - {agent}\nKeybind - {kb}\nDelay - {delay}', fg='white')
 text.config(font=('Tahoma', 10, 'bold'))
 text.pack()
-toggle_state = tk.Label(keybind_frame, text=f"Status:\n{toggleon}", fg=fg)
+toggle_state = tk.Label(keybind_frame, text=f"Status:\n{istoggled}", fg=fg)
 
 toggle_state.config(font=("Impact", 14,))
 toggle_state.pack()
@@ -175,10 +175,10 @@ toggle_state.pack()
 
 def showgui():
     global data, agents, kb, delay, agent, current_path
-    with open('config.txt', 'a') as file:
+    with open('theme/config.txt', 'a') as file:
         pass
-    if os.path.exists('config.txt') and os.path.getsize('config.txt') != 0:
-        with open('config.txt', 'r') as file:
+    if os.path.exists('theme/config.txt') and os.path.getsize('theme/config.txt') != 0:
+        with open('theme/config.txt', 'r') as file:
 
             datafile = file.read()
             data = json.loads(datafile)
