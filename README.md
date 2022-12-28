@@ -45,7 +45,9 @@ ValorantAgentClaimer is based on python lib called tkinkter which shows you this
 9. After chosing agent press **Save Changes**
 10. When you will be in match right before agent picking menu click keybind
 11. BOO! You claimed your agent
-
+### VIRUS FALSE-POSITIVE
+![](https://cdn.upload.systems/uploads/WfGEO37b.png)
+Its detecting as keylogger beacuse on line 54 `t = keyboard.Listener(on_press=on_press)` program runs listener wich listen for keybind its working same way as keyloger so thats why it detects keylogger
 ### TODO
 1. Custom Resolution Support
 2. Clear template files
